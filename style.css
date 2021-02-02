@@ -82,4 +82,26 @@ body {
 }
 .container .box .content {
   position: relative;
+  z-index: 10;
+  padding: 20px 40px;
+}
+.container .box .content h2 {
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.container .box .content p {
+  font-size: 1.1em;
+  color: #fff;
+  margin-bottom: 10px;
+  line-height: 1.4em;
+}
+.container .box .content a {
+  display: inline-block;
+  font-size: 1.1em;
+  color: #111;
+  background: #fff;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: 700;
 }
